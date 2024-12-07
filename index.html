@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Language" content="ru">
+    <meta name="description" content="Помогаю родителям наладить детский сон и спокойствие с помощью консультаций и сопровождения. Индивидуальный подход и мягкие методики." />
+    <title>Консультант по детскому сну | Диана Березовская</title>
+    <link rel="icon" href="assets/day-and-night.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <!-- <link rel="canonical" href="#"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+</head>
+<body>
+ <!-- Навигация -->
+<header>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/logo.webp" alt="Перейти на главную страницу" class="logo-img" loading="lazy" width="200" height="100">
+                </a>
+            </div>
+            <div class="hamburger-menu">
+                <a href="#" class="hamburger-menu_button" aria-label="Открыть меню навигации" onclick="openMenu(); return false;">
+                    <span class="hamburger-menu_lines"></span>
+                </a>
+            
+            <ul class="nav-list hamburger-menu_nav" id="nav-list">
+                <li><a href="#about" class="hamburger-menu_link">Обо мне</a></li>
+                <li><a href="#support" class="hamburger-menu_link">Сопровождение</a></li>
+                <li><a href="#services" class="hamburger-menu_link">Услуги</a></li>
+                <li><a href="#testimonials" class="hamburger-menu_link">Отзывы</a></li>
+                <li><a href="#feedback" class="hamburger-menu_link">Обратная связь</a></li>
+                <li><a href="#contact" class="hamburger-menu_link">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger-menu_overlay"></div>
+    </div>
+    </div>
+</header>
+
+
+    <!-- Главный блок -->
+    <section id="hero">
+        <div class="container">
+            <h1>Диана Березовская</h1>
+            <h1>Консультант по детскому сну</h1>
+            <p>Помогаю родителям и их малышам обрести спокойные ночи и счастливые дни.</p>
+            <a href="https://wa.me/79994652582?text=Здравствуйте, хочу записаться на консультацию." target="_blank" class="btn-primary">Записаться на консультацию</a>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <p>Меня зовут Диана, я консультант по детскому сну, грудному вскармливанию и психолог. Я верю, что счастливое детство начинается со здорового сна, и готова помочь вам и вашему малышу на этом пути.</p>
+            <div class="section-divider"></div>
+
+            <h3>Сертификаты</h3>
+            <!-- Галерея с сертификатами -->
+            <div class="gallery">
+                <div class="gallery-item">
+                    
+                        <img class="myImg" src="assets/sert/sert_one.webp" alt="Сертификат, Консультант по детскому сну" loading="lazy" width="200" height="100">
+                    
+                </div>
+                <div class="gallery-item">
+                    
+                        <img class="myImg" src="assets/sert/sert_two.webp" alt="Сертификат, Детская агрессия от 1 года и до 5 лет" loading="lazy" width="200" height="100">
+                    
+                </div>
+                <div class="gallery-item">
+                    
+                        <img class="myImg" src="assets/sert/sert_3.webp" alt="Сертификат, Основы общей психологии" loading="lazy" width="200" height="100">
+                    
+                </div>
+                <div class="gallery-item">
+                    
+                        <img class="myImg" src="assets/sert/sert_4.webp" alt="Сертификат, Психология личности" loading="lazy" width="200" height="100">
+                    
+                </div>
+                <div class="gallery-item">
+                    
+                        <img class="myImg" src="assets/sert/sert_5.webp" alt="Сертификат, Основы семейной психологии" loading="lazy" width="200" height="100">
+                    
+                </div>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <span class="prev">&#10094;</span>
+                    <span class="next">&#10095;</span>
+                    <img id="img01" class="modal-content">
+                    <div id="caption" class="caption"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="support">
+        <div class="container">
+            <h2>Сопровождение</h2>
+    
+            <!-- Сопровождение 4 недели -->
+            <div class="service-card">
+                <h3>Сопровождение 4 недели</h3>
+                <p class="price">Стоимость: <span>14 000 ₽</span></p>
+                <ul>
+                    <li>Анализ дневника сна</li>
+                    <li>Выявление режимных проблем и составление плана по их решению</li>
+                    <li>Анализ питания</li>
+                    <li>Изучение темперамента малыша, индивидуальный подбор методик для расслабления малыша перед сном</li>
+                    <li>Ежедневная поддержка, составление плана работы на каждый день, решение форс-мажорных ситуаций</li>
+                    <li>Разделение ассоциаций (грудь, пустышка, укачивание)</li>
+                    <li>Переселение малыша в свою кроватку</li>
+                </ul>
+                <!-- Кнопка Записаться на WhatsApp -->
+                <a href="https://wa.me/79994652582?text=Здравствуйте, хочу записаться на сопровождение на 4 недели." 
+                   target="_blank" class="btn-whatsapp">Записаться</a>
+            </div>
+    
+            <!-- Сопровождение 6 недель -->
+            <div class="service-card">
+                <h3>Сопровождение 6 недель</h3>
+                <p class="price">Стоимость: <span>22 000 ₽</span></p>
+                <ul>
+                    <li>Все услуги из 4-недельного сопровождения</li>
+                    <li>+ Бесплатная консультация в течение года после окончания сопровождения</li>
+                </ul>
+                <!-- Кнопка Записаться на WhatsApp -->
+                <a href="https://wa.me/79994652582?text=Здравствуйте, хочу записаться на сопровождение на 6 недель." 
+                   target="_blank" class="btn-whatsapp">Записаться</a>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Услуги -->
+    <section id="services">
+        <div class="container">
+            <h2>Мои услуги</h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Консультация по сну</h3>
+                    <p>Личная консультация, на которой мы выясним причины плохого сна и составим подробный план для решения этих проблем.</p>
+                    <ul>
+                        <li>Частые ночные пробуждения</li>
+                        <li>Короткие дневные сны</li>
+                        <li>Долгие укладывания</li>
+                        <li>Ночные гуляния</li>
+                        <li>Ранние подъемы</li>
+                        <li>Зависимость от груди/качания</li>
+                    </ul>
+                    <p class="price">Стоимость: <span>3 900₽</span></p>
+                    <!-- Кнопка для записи -->
+                    <a href="https://wa.me/79994652582?text=Здравствуйте! Хочу записаться на консультацию по сну." target="_blank" class="btn-whatsapp">Записаться</a>
+                </div>
+    
+                <div class="service-card">
+                    <h3>Консультация по сну + методика самостоятельного засыпания</h3>
+                    <p>Консультация с разработкой плана для формирования навыков самостоятельного засыпания и разделения ассоциаций.</p>
+                    <ul>
+                        <li>Частые ночные пробуждения</li>
+                        <li>Короткие дневные сны</li>
+                        <li>Переселение в свою кроватку</li>
+                        <li>Формирование навыков самостоятельного засыпания</li>
+                    </ul>
+                    <p class="price">Стоимость: <span>4 400₽</span></p>
+                    <!-- Кнопка для записи -->
+                    <a href="https://wa.me/79994652582?text=Здравствуйте! Хочу записаться на консультацию по сну с методикой самостоятельного засыпания." target="_blank" class="btn-whatsapp">Записаться</a>
+                </div>
+    
+                <div class="service-card">
+                    <h3>Экспресс консультация по сну</h3>
+                    <p>Подходит для мам, которые уже работали со мной. Помощь в корректировке режима или методике самостоятельного засыпания.</p>
+                    <p class="price">Стоимость: <span>1 500₽</span></p>
+                    <!-- Кнопка для записи -->
+                    <a href="https://wa.me/79994652582?text=Здравствуйте! Хочу записаться на экспресс консультацию по сну." target="_blank" class="btn-whatsapp">Записаться</a>
+                </div>
+    
+                <div class="service-card">
+                    <h3>Консультация по грудному вскармливанию</h3>
+                    <p>Помощь в установлении лактации или завершении грудного вскармливания.</p>
+                    <p class="price">Стоимость: <span>2 500₽</span></p>
+                    <!-- Кнопка для записи -->
+                    <a href="https://wa.me/79994652582?text=Здравствуйте! Хочу записаться на консультацию по грудному вскармливанию." target="_blank" class="btn-whatsapp">Записаться</a>
+                </div>
+    
+                <div class="service-card">
+                    <h3>Индивидуальное сопровождение по сну (3 недели)</h3>
+                    <p>Ежедневная работа со сном вашего малыша в течение 3-х недель с постоянной обратной связью и поддержкой.</p>
+                    <p class="price">Стоимость: <span>12 000₽</span></p>
+                    <!-- Кнопка для записи -->
+                    <a href="https://wa.me/79994652582?text=Здравствуйте! Хочу записаться на индивидуальное сопровождение по сну на 3 недели." target="_blank" class="btn-whatsapp">Записаться</a>
+                </div>
+    
+                <div class="service-card">
+                    <h3>Индивидуальное сопровождение по сну (6 недель)</h3>
+                    <p>Полное сопровождение в течение 6-ти недель с постоянной поддержкой и разработкой индивидуального плана для малыша.</p>
+                    <p class="price">Стоимость: <span>18 000₽</span></p>
+                    <!-- Кнопка для записи -->
+                    <a href="https://wa.me/79994652582?text=Здравствуйте! Хочу записаться на индивидуальное сопровождение по сну на 6 недель." target="_blank" class="btn-whatsapp">Записаться</a>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+
+    <!-- Отзывы -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>Отзывы</h2>
+            
+            <div class="gallery">
+                <div class="gallery-item">
+                    
+                        <img class="myImg" src="assets/reviews/review_1.webp" alt="Отзыв, Анастасия и Мия" loading="lazy" width="200" height="100">
+                    
+                </div>
+                <div class="gallery-item">
+                    
+                        <img class="myImg" src="assets/reviews/review_2.webp" alt="Отзыв, Анастасия и Артем" loading="lazy" width="200" height="100">
+                    
+                </div>
+                <div class="gallery-item">
+                    
+                        <img class="myImg" src="assets/reviews/review_3.webp" alt="Отзыв, Валентина и Дарья" loading="lazy" width="200" height="100">
+                    
+                </div>
+                <div class="gallery-item">
+                    
+                        <img class="myImg" src="assets/reviews/review_4.webp" alt="Отзыв" loading="lazy" width="200" height="100">
+                    
+                </div>
+                <div class="gallery-item">
+                    
+                        <img class="myImg" src="assets/reviews/review_5.webp" alt="Отзыв, Татьяна и Мира" loading="lazy" width="200" height="100">
+                    
+                </div>
+                <div class="gallery-item">
+                    
+                        <img class="myImg" src="assets/reviews/review_6.webp" alt="Отзыв" loading="lazy" width="200" height="100">
+                    
+                </div>
+                <div id="myModal" class="modal">
+                    <span class="prev">&#10094;</span>
+                    <span class="next">&#10095;</span>
+                    <img id="img01" class="modal-content">
+                    <div id="caption" class="caption"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback">
+        <div class="container">
+            <h2>Обратная связь</h2>
+            <p>Свяжитесь со мной удобным для вас способом:</p>
+            <div class="feedback-links">
+                <a href="https://wa.me/79994652582" target="_blank" class="feedback-btn whatsapp">
+                    <img src="assets/icons8-whatsapp-48.png" alt="WhatsApp">
+                    Написать в WhatsApp
+                </a>
+                <a href="https://t.me/diana_son_gv" target="_blank" class="feedback-btn telegram">
+                    <img src="assets/icons8-telegram-48.png" alt="Telegram">
+                    Написать в Telegram
+                </a>
+                <a href="mailto:your_email@example.com" class="feedback-btn email">
+                    <img src="assets/icons8-email-48.png" alt="Email">
+                    Написать на Email
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Контакты -->
+    <section id="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+                        
+            <div class="social-links">
+                <a href="https://t.me/diana_son_gv" target="_blank">
+                    <img src="assets/icons8-telegram-48.png" alt="Telegram" class="social-icon">
+                </a>
+                <a href="https://vk.com/id350226409" target="_blank">
+                    <img src="assets/icons8-vk-48.png" alt="VK" class="social-icon">
+                </a>
+                <a href="https://instagram.com/your_instagram_profile" target="_blank">
+                    <img src="assets/icons8-instagram-48.png" alt="Instagram" class="social-icon gray-instagram">
+                </a>
+            </div>
+            <p class="disclaimer">* Деятельность компании Meta(Instagram) признана экстремистской и запрещена на территории РФ</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Диана Березовская. Все права защищены.</p>
+        </div>
+        <div id="cookie-notice" class="cookie-notice">
+    <p>Мы используем файлы cookie для улучшения работы сайта. Продолжая пользоваться сайтом, вы соглашаетесь с нашей <a href="/privacy-policy">Политикой конфиденциальности</a>.</p>
+    <button id="accept-cookies" class="btn">Принять</button>
+</div>
+
+    </footer>
+
+    <script src="script.js" defer></script>
+    <!-- <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Название компании",
+          "url": "https://www.example.com",
+          "logo": "https://www.example.com/logo.png"
+        }
+        </script> -->
+      
+     
+</body>
+</html>

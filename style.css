@@ -1,0 +1,1092 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2') format('woff2');
+}
+
+
+/* Подключаем шрифты */
+html, body {
+    overflow-x: hidden;
+}
+
+/* Основные стили для всех устройств */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f8f8;
+}
+
+
+/* Стили для заголовков */
+h1, h2, h3 {
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/* Стили для отступов и контейнеров */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    /* Навигация */
+    .nav-list {
+        width: 100%;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-list li {
+        text-align: center;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    /* Уменьшаем отступы для мобильных устройств */
+    section {
+        padding: 2rem 0;
+    }
+
+    /* Стили для карточек услуг */
+    .service-card {
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    /* Адаптация галереи */
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .gallery-item {
+        height: auto;
+    }
+
+    /* Уменьшаем размеры изображений */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Адаптация текста и отступов в отзывах */
+    .testimonial {
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    /* Снижаем отступы */
+    section {
+        padding: 1.5rem 0;
+    }
+
+    /* Стили для карточек услуг */
+    .service-card {
+        padding: 1rem;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    /* Адаптация для формы */
+    #consultation-form {
+        padding: 1rem;
+    }
+}
+
+
+/* Фоновые цвета для разных разделов */
+#about {
+    background-color: #f8f8f8;
+    padding: 4rem 0;
+}
+
+#services {
+    background-color: #ffffff;
+    padding: 4rem 0;
+}
+
+#testimonials {
+    background-color: #f2d4ca;
+    padding: 4rem 0;
+}
+
+#contact {
+    background-color: #8E175A;
+    color: #fff;
+    padding: 4rem 0;
+}
+
+/* Стили для логотипа */
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    white-space: nowrap; /* Запрещаем перенос текста */
+    overflow: hidden; /* Обрезаем текст, если он слишком длинный */
+    text-overflow: ellipsis; /* Добавляем троеточие, если текст не помещается */
+}
+
+.logo a {
+    text-decoration: none;
+    color: #333;
+}
+
+.logo-img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 10px; /* Отступ справа от логотипа */
+}
+
+/* Основные стили для навигации */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: nowrap; /* Запрещаем перенос строк */
+}
+
+.nav-list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    white-space: nowrap; /* Запрещаем перенос текста */
+    flex-wrap: nowrap; /* Запрещаем перенос элементов */
+    
+}
+
+/* .nav-list li {
+    margin-top: 5%;
+    padding-right: 15%;
+} */
+
+.nav-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+    color: #8E175A;
+}
+
+.hamburger-menu_button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 30;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.hamburger-menu_button:hover .hamburger-menu_lines {
+    filter: brightness(0.7);
+}
+
+.hamburger-menu_button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.hamburger-menu_lines::before,
+.hamburger-menu_lines::after,
+.hamburger-menu_lines {
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background-color: #BB1E99;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.hamburger-menu_lines {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hamburger-menu_lines::before {
+    content: '';
+    top: -12px;
+}
+
+.hamburger-menu_lines::after {
+    content: '';
+    top: 12px;
+}
+
+.hamburger-menu_active .hamburger-menu_lines {
+    background-color: transparent;
+}
+.hamburger-menu_active .hamburger-menu_lines::before {
+    top: 0;
+    transform: rotate(45deg);
+}
+.hamburger-menu_active .hamburger-menu_lines::after{
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+.hamburger-menu_nav {
+    padding-top: 120px;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    background-color: #F9AFE9;
+    overflow-y: auto;
+    right: -120%;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    transition: 0.8s;
+}
+.hamburger-menu_active .hamburger-menu_nav {
+    right: 0%;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+.hamburger-menu_link {
+    padding: 18px 35px;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 400;
+    color: #BB1E99;
+    border-bottom: 1px solid #fff;
+}
+
+/* .hamburger-menu_link:first-child {
+    border-top: 1px solid #fff;
+} */
+
+.hamburger-menu_link:hover {
+    filter: brightness(0.9);
+}
+.hamburger-menu_overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+.hamburger-menu_active .hamburger-menu_overlay {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Лого и навигация */
+.logo a {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+    color: #8E175A;
+}
+
+/* Анимация появления элементов при прокрутке */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+header {
+    background-color: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #8E175A;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+    color: #8E175A;
+}
+
+/* Главный блок */
+#hero {
+    background-color: #8E175A;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 0;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    animation: fadeInUp 1.2s ease-in-out;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1.4s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #fff;
+    color: #8E175A;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #f2d4ca;
+    transform: scale(1.05); /* Увеличение при наведении */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Обо мне */
+#about {
+    background-color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+#about h3 {
+    font-size: 2rem;
+    margin-top: 2rem; /* Отступ сверху перед заголовком "Сертификаты" */
+    color: #8E175A;
+    text-align: left;
+}
+
+/* Разделительная линия */
+.section-divider {
+    height: 2px;
+    background-color: #e0e0e0;
+    margin: 2rem 0;
+}
+
+#about .gallery {
+    background-color: #f8f8f8;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+/* Галерея отзывов и сертификатов */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Адаптивная сетка */
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Увеличение карточки при наведении */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Тень при наведении */
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1); /* Легкое увеличение изображения внутри карточки */
+}
+
+/*------------------------------------------------------------УСЛУГИ-----------------------------------------------------------*/
+
+/* Основной контейнер для раздела сопровождения и услуг */
+#support, #services {
+    background-color: #f8f8f8;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Заголовки разделов */
+#support h2, #services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #333;
+}
+
+/* Карточки для вариантов сопровождения и услуг */
+.service-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease-in-out;
+    text-align: left;
+    max-width: 700px;
+    margin: 3rem auto; /* Отступ между карточками */
+    display: flex;
+    flex-direction: column; /* Размещаем элементы вертикально */
+}
+
+/* Эффект при наведении */
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Заголовок услуги */
+.service-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #8E175A;
+}
+
+/* Цена */
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #8E175A;
+    margin-bottom: 1.5rem;
+}
+
+/* Специальное оформление для цены */
+.price span {
+    background-color: #f2d4ca;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    font-size: 1.6rem;
+}
+
+/* Описание и список услуг */
+.service-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.service-card ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+/* Стиль для кнопки WhatsApp */
+.btn-whatsapp {
+    display: inline-block; /* Кнопка теперь на одном уровне с контентом */
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: auto; /* Отталкиваем кнопку к нижней части блока */
+}
+
+.btn-whatsapp:hover {
+    background-color: #1DA851;
+}
+
+/* Сетка для карточек услуг */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Адаптивные блоки */
+    gap: 2rem;
+    justify-items: center;
+}
+
+/* Общие стили для разделения блоков */
+.service-card + .service-card {
+    margin-top: 3rem; /* Отступ между блоками услуг */
+}
+
+/*------------------------------------------------------------ОТЗЫВЫ-----------------------------------------------------------*/
+
+/* Отзывы */
+#testimonials {
+    background-color: #fff;
+    padding: 1rem 0;
+}
+
+#testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #333;
+    text-align: center;
+}
+
+.testimonial-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.testimonial {
+    background-color: #f8f8f8;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    transition: transform 0.3s ease-in-out;
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.testimonial:hover {
+    transform: translateY(-10px); /* Небольшое поднятие при наведении */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Контейнер формы записи */
+#consultation {
+    background-color: #f8f8f8;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#consultation h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+/* Стили формы */
+#consultation-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Стили для полей формы */
+#consultation-form label {
+    font-size: 1.2rem;
+    color: #333;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#consultation-form input, #consultation-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+#consultation-form input:focus, #consultation-form textarea:focus {
+    border-color: #8E175A; /* Цвет границы при фокусе */
+    outline: none;
+}
+
+/* Кнопка отправки */
+#consultation-form button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #8E175A;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#consultation-form button:hover {
+    background-color: #f2d4ca;
+    transform: scale(1.05); /* Легкое увеличение при наведении */
+}
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 768px) {
+    #consultation-form {
+        padding: 1.5rem;
+    }
+
+    #consultation-form button {
+        font-size: 1.1rem;
+    }
+}
+
+#feedback {
+    background-color: #f8f8f8;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#feedback h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+#feedback p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.feedback-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.feedback-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-btn img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.feedback-btn:hover {
+    background-color: #7E1452;
+}
+
+.whatsapp {
+    background-color: #20B85D;
+}
+
+.telegram {
+    background-color: #007AAD;
+}
+
+.email {
+    background-color: #DBAC98;
+}
+
+.btn-whatsapp, .btn-primary {
+    padding: 15px 30px;  /* Увеличение padding */
+    font-size: 16px;
+    margin-bottom: 20px;  /* Отступы для разделения элементов */
+  }
+  
+  @media (max-width: 768px) {
+    .btn-whatsapp {
+      width: 100%;
+      padding: 20px 0;
+    }
+    .btn-primary {
+        width: 100%;
+        padding: 20px 40px;
+      }
+  }
+
+
+
+/* Контакты */
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    text-align: center;
+}
+
+/* Социальные иконки */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social-links a {
+    display: inline-block;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+}
+
+.social-icon {
+    width: 48px;
+    height: 48px;
+}
+
+/* Стиль для серой иконки Instagram */
+.gray-instagram {
+    filter: grayscale(100%); /* Превращает иконку в черно-белую */
+}
+
+/* Стили для предупреждения */
+.disclaimer {
+    font-size: 0.8rem;
+    color: #f2d4ca;
+    margin-top: 1rem;
+    text-align: center;
+    font-style: italic;
+    max-width: 600px;
+    margin: 1rem auto; /* Центрирование и отступы сверху и снизу */
+}
+
+
+/* Анимация плавного появления при прокрутке */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.cookie-notice {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+    display: none;
+}
+
+.cookie-notice p {
+    display: inline-block;
+    margin: 0;
+    padding-right: 10px;
+}
+
+.cookie-notice a {
+    color: #f2d4ca;
+    text-decoration: underline;
+}
+
+.cookie-notice .btn {
+    background-color: #8E175A;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cookie-notice .btn:hover {
+    background-color: #f2d4ca;
+}
+
+/*Gallary Modal Window*/
+
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.myImg:hover {
+    opacity: 0.7;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #BB1E99;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.3s;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+  
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+  
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+}
+
+
+/* Media */
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr); /* На маленьких экранах два изображения в строку */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery {
+        grid-template-columns: 1fr; /* На очень маленьких экранах одно изображение в строку */
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem; /* Уменьшаем размер заголовка h1 */
+    }
+
+    h2 {
+        font-size: 1.6rem; /* Уменьшаем размер заголовка h2 */
+    }
+
+    p {
+        font-size: 1rem; /* Уменьшаем размер основного текста */
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 2rem 1rem; /* Уменьшаем отступы сверху и снизу */
+    }
+
+    .container {
+        padding: 0 10px; /* Уменьшаем боковые отступы контейнера */
+    }
+}
+
+
