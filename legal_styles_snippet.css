@@ -1,0 +1,117 @@
+/* ---------------- Legal footer, work time and gated CTA ---------------- */
+.footer-legal {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.footer-legal a {
+    color: #f2d4ca;
+    text-decoration: underline;
+    font-size: 0.95rem;
+}
+
+.footer-legal a:hover {
+    color: #fff;
+}
+
+.work-time {
+    max-width: 720px;
+    margin: 0 auto 2rem;
+    padding: 0.9rem 1.2rem;
+    border-radius: 14px;
+    background: #fff;
+    border: 1px solid #eee;
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.cta-consent-block {
+    margin-top: auto;
+}
+
+.legal-consent {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 1.4rem 0 1rem;
+    padding: 0.9rem 1rem;
+    border-radius: 14px;
+    background: #FAFAFB;
+    border: 1px solid #E7E7EA;
+    font-size: 0.92rem;
+    line-height: 1.45;
+    color: #444;
+    cursor: pointer;
+}
+
+.legal-consent input {
+    flex: 0 0 auto;
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+    accent-color: #8E175A;
+    cursor: pointer;
+}
+
+.legal-consent a {
+    color: #8E175A;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.legal-gated-link {
+    width: 100%;
+}
+
+.legal-gated-link.is-disabled {
+    background: #C9C9C9;
+    color: #ffffff;
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.75;
+    box-shadow: none;
+}
+
+.legal-gated-link.is-disabled:hover {
+    background: #C9C9C9;
+    transform: none;
+}
+
+/* Override old text-circle MAX styles: use actual icon */
+.social-max {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    overflow: hidden;
+    background: transparent;
+    box-shadow: none;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-max-icon {
+    width: 48px;
+    height: 48px;
+    display: block;
+    object-fit: contain;
+}
+
+.social-max:hover {
+    transform: scale(1.1);
+    filter: brightness(1.08);
+    box-shadow: none;
+}
+
+@media (max-width: 768px) {
+    .legal-consent {
+        font-size: 0.85rem;
+        padding: 0.85rem;
+    }
+}
