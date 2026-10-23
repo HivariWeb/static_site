@@ -1,0 +1,24 @@
+# Локальные материалы аудита и резервные копии
+/audit-*/
+/backups/
+*.download-partial
+
+# Учётные данные и локальные настройки окружения
+.env
+.env.*
+!.env.example
+*.credential.xml
+*.credentials.xml
+*.pem
+*.key
+.netrc
+_netrc
+
+# Настройки редактора: сохраняем только общие параметры проекта
+.vscode/*
+!.vscode/settings.json
+
+# Временные файлы
+*.log
+.DS_Store
+Thumbs.db
