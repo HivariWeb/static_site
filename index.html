@@ -1,414 +1,1023 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="ru">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ie=edge" http-equiv="X-UA-Compatible"/>
-<meta content="ru" http-equiv="Content-Language"/>
-<meta content="Помогаю родителям наладить детский сон и спокойствие с помощью консультаций и сопровождения. Индивидуальный подход и мягкие методики." name="description"/>
-<title>Консультант по детскому сну | Диана Березовская</title>
-<link href="assets/day-and-night.png" rel="icon" type="image/x-icon"/>
-<link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" type="text/css"/>
-<link href="style.css" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet"/>
-<link as="font" crossorigin="anonymous" href="https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2" rel="preload" type="font/woff2"/>
-<link as="font" crossorigin="anonymous" href="https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2" rel="preload" type="font/woff2"/>
-<link as="font" crossorigin="anonymous" href="https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2" rel="preload" type="font/woff2"/>
-</head>
-<body>
-<!-- Навигация -->
-<header>
-<div class="container">
-<nav>
-<div class="logo">
-<a href="index.html">
-<img alt="Перейти на главную страницу" class="logo-img" height="100" loading="lazy" src="assets/logo.webp" width="200"/>
-</a>
-</div>
-<div class="hamburger-menu">
-<a aria-label="Открыть меню навигации" class="hamburger-menu_button" href="#" onclick="openMenu(); return false;">
-<span class="hamburger-menu_lines"></span>
-</a>
-<ul class="nav-list hamburger-menu_nav" id="nav-list">
-<li><a class="hamburger-menu_link" href="#about">Обо мне</a></li>
-<li><a class="hamburger-menu_link" href="#support">Сопровождение</a></li>
-<li><a class="hamburger-menu_link" href="#services">Консультация</a></li>
-<li><a class="hamburger-menu_link" href="#testimonials">Отзывы</a></li>
-<li><a class="hamburger-menu_link" href="#feedback">Обратная связь</a></li>
-<li><a class="hamburger-menu_link" href="#contact">Контакты</a></li>
-</ul>
-<div class="hamburger-menu_overlay"></div>
-</div>
-</nav>
-</div>
-</header>
-<!-- Главный блок -->
-<section id="hero">
-<div class="container hero-content">
-<div class="hero-text">
-<h1>Диана Березовская</h1>
-<h1>Консультант по детскому сну</h1>
-<p>Помогаю родителям и их малышам обрести спокойные ночи и счастливые дни.</p>
-<a class="btn-primary" href="#services">Выбрать консультацию</a>
-</div>
-<div class="hero-photo-wrap">
-<img alt="Диана Березовская, консультант по детскому сну" class="hero-photo" fetchpriority="high" height="1067" loading="eager" src="assets/diana-photo.webp" width="832"/>
-</div>
-</div>
-</section>
-<!-- Обо мне -->
-<section id="about">
-<div class="container">
-<h2>Обо мне</h2>
-<p>Меня зовут Диана, я консультант по детскому сну, грудному вскармливанию и психолог. Я верю, что счастливое детство начинается со здорового сна, и готова помочь вам и вашему малышу на этом пути.</p>
-<div class="section-divider"></div>
-<h3>Сертификаты</h3>
-<div class="gallery">
-<div class="gallery-item">
-<img alt="Сертификат, Консультант по детскому сну" class="myImg" height="100" loading="lazy" src="assets/sert/sert_one.webp" width="200"/>
-</div>
-<div class="gallery-item">
-<img alt="Сертификат, Детская агрессия от 1 года и до 5 лет" class="myImg" height="100" loading="lazy" src="assets/sert/sert_two.webp" width="200"/>
-</div>
-<div class="gallery-item">
-<img alt="Сертификат, Основы общей психологии" class="myImg" height="100" loading="lazy" src="assets/sert/sert_3.webp" width="200"/>
-</div>
-<div class="gallery-item">
-<img alt="Сертификат, Психология личности" class="myImg" height="100" loading="lazy" src="assets/sert/sert_4.webp" width="200"/>
-</div>
-<div class="gallery-item">
-<img alt="Сертификат, Основы семейной психологии" class="myImg" height="100" loading="lazy" src="assets/sert/sert_5.webp" width="200"/>
-</div>
-</div>
-</div>
-</section>
-<!-- Сопровождение -->
-<section id="support">
-<div class="container">
-<h2>Сопровождение</h2>
-<div>
-                Сопровождение — это индивидуальная работа, когда я на связи с вами каждый день.
-                Даю план, рассказываю как решить проблемы, помогаю, если что-то пошло не так.
-                Вместе мы проходим через все этапы работы со сном ребенка.
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Консультации и сопровождение по детскому сну онлайн. Разбор дневника сна, работа с режимом и привычками засыпания. Форматы от 2 500 ₽."
+    />
+    <meta name="theme-color" content="#8e175a" />
+    <title>Консультант по детскому сну — Диана Березовская</title>
+    <link rel="canonical" href="https://www.dianaberezovskaya.online/" />
+    <link rel="icon" href="/assets/day-and-night.png" type="image/png" />
+    <link rel="stylesheet" href="/style.css?v=bc2767fc8d0c" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta
+      property="og:title"
+      content="Консультант по детскому сну — Диана Березовская"
+    />
+    <meta
+      property="og:description"
+      content="Консультации и сопровождение по детскому сну онлайн. Разбор дневника сна, работа с режимом и привычками засыпания. Форматы от 2 500 ₽."
+    />
+    <meta property="og:url" content="https://www.dianaberezovskaya.online/" />
+    <meta
+      property="og:image"
+      content="https://www.dianaberezovskaya.online/assets/diana-photo.webp"
+    />
+    <meta property="og:image:width" content="832" />
+    <meta property="og:image:height" content="1067" />
+    <meta
+      property="og:image:alt"
+      content="Диана Березовская, консультант по детскому сну"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Диана Березовская",
+        "jobTitle": "Консультант по детскому сну",
+        "url": "https://www.dianaberezovskaya.online/",
+        "image": "https://www.dianaberezovskaya.online/assets/diana-photo.webp",
+        "sameAs": ["https://t.me/diana_son_gv", "https://vk.com/id350226409"]
+      }
+    </script>
+    <script src="/site-config.js?v=67a91e7bec6d" defer></script>
+    <script src="/script.js?v=7de4afc11739" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/" aria-label="Диана Березовская — на главную"
+          ><img
+            src="/assets/logo.webp"
+            width="860"
+            height="496"
+            alt=""
+            decoding="async"
+          /><span class="brand-name">Диана<br />Березовская</span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-controls="site-nav"
+          aria-expanded="false"
+          aria-label="Открыть меню"
+        >
+          <span aria-hidden="true"></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+          <ul>
+            <li><a href="/#services">Консультации</a></li>
+            <li><a href="/#support">Сопровождение</a></li>
+            <li><a href="/#about">Обо мне</a></li>
+            <li><a href="/#faq">Вопросы</a></li>
+            <li><a href="/#feedback">Контакты</a></li>
+            <li>
+              <a class="button button--small" href="/request.php">Записаться</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <button
+      class="menu-backdrop"
+      type="button"
+      aria-label="Закрыть меню"
+      tabindex="-1"
+      hidden
+    ></button>
+    <main id="main">
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">
+                Диана Березовская · консультант по детскому сну
+              </p>
+              <h1 id="hero-title">
+                Спокойные ночи начинаются с понятного плана
+              </h1>
+              <p class="hero-intro">
+                Помогаю родителям разобраться со сном ребёнка: выстроить режим,
+                понять причины сложных укладываний и подобрать подходящий формат
+                поддержки.
+              </p>
+              <div class="hero-actions">
+                <a class="button button--light" href="#services"
+                  >Подобрать консультацию</a
+                ><a class="button button--outline" href="#feedback"
+                  >Задать вопрос</a
+                >
+              </div>
+              <ul class="hero-facts">
+                <li>Онлайн, из дома</li>
+                <li>Консультации от 2 500 ₽</li>
+                <li>Индивидуальный подход</li>
+              </ul>
             </div>
-<div class="service-card">
-<h3>Сопровождение 3 недели</h3>
-<p class="price">Стоимость: <span>11 500 ₽</span></p>
-<div class="badges">
-<span class="badge">Рассрочка от банка</span>
-<span class="badge">Без первоначального взноса</span>
-<span class="badge">Срок на выбор</span>
-</div>
-<p>
-                    Мы вместе проходим через работу с режимом, совместно решаем режимные проблемы,
-                    организовываем малышу бодрствование, подбираем методы расслабления и методики по работе с ассоциациями,
-                    в конце сопровождения я даю подробную информацию на будущее.
-                </p>
-<div class="cta-consent-block">
-<label class="legal-consent">
-<input class="legal-consent-checkbox" type="checkbox"/>
-<span>
-            Я ознакомлен(а) с
-            <a href="/offer.html" target="_blank">публичной офертой</a>,
-            <a href="/privacy-policy.html" target="_blank">политикой обработки персональных данных</a>
-            и даю
-            <a href="/consent-personal-data.html" target="_blank">согласие на обработку персональных данных</a>.
-        </span>
-</label>
-<a aria-disabled="true" class="btn-telegram legal-gated-link is-disabled" data-href="https://t.me/diana_son_gv?text=Здравствуйте, хочу записаться на сопровождение на 3 недели." href="#" target="_blank">Записаться</a>
-</div>
-</div>
-<div class="service-card">
-<h3>Сопровождение 5 недель</h3>
-<p class="price">Стоимость: <span>18 000 ₽</span></p>
-<div class="badges">
-<span class="badge">Рассрочка от банка</span>
-<span class="badge">Без первоначального взноса</span>
-<span class="badge">Срок на выбор</span>
-</div>
-<p>
-                    Все то же, что включает сопровождение 3 недели + совместная работа над ассоциацией
-                    (грудь, бутылочка, пустышка, укачивания), переселение в кроватку, работа с ночными пробуждениями,
-                    по запросу завершение ГВ/ИВ или методика на будущее.
-                </p>
-<div class="cta-consent-block">
-<label class="legal-consent">
-<input class="legal-consent-checkbox" type="checkbox"/>
-<span>
-            Я ознакомлен(а) с
-            <a href="/offer.html" target="_blank">публичной офертой</a>,
-            <a href="/privacy-policy.html" target="_blank">политикой обработки персональных данных</a>
-            и даю
-            <a href="/consent-personal-data.html" target="_blank">согласие на обработку персональных данных</a>.
-        </span>
-</label>
-<a aria-disabled="true" class="btn-telegram legal-gated-link is-disabled" data-href="https://t.me/diana_son_gv?text=Здравствуйте, хочу записаться на сопровождение на 5 недель." href="#" target="_blank">Записаться</a>
-</div>
-</div>
-<div class="service-card vip">
-<div class="vip-ribbon">Расширенный формат</div>
-<h3>Расширенное сопровождение</h3>
-<p class="price">Стоимость: <span>50 000 ₽</span></p>
-<div class="badges">
-<span class="badge">Рассрочка от банка</span>
-<span class="badge">Без первоначального взноса</span>
-<span class="badge">Срок на выбор</span>
-</div>
-<ul>
-<li>Не имеет ограничения по времени, работа ведется до получения результата</li>
-<li>После сопровождения бесплатные консультации по мере роста ребенка для корректировки режима и помощи в поддержании качественного сна</li>
-</ul>
-<div class="cta-consent-block">
-<label class="legal-consent">
-<input class="legal-consent-checkbox" type="checkbox"/>
-<span>
-            Я ознакомлен(а) с
-            <a href="/offer.html" target="_blank">публичной офертой</a>,
-            <a href="/privacy-policy.html" target="_blank">политикой обработки персональных данных</a>
-            и даю
-            <a href="/consent-personal-data.html" target="_blank">согласие на обработку персональных данных</a>.
-        </span>
-</label>
-<a aria-disabled="true" class="btn-telegram legal-gated-link is-disabled" data-href="https://t.me/diana_son_gv?text=Здравствуйте, хочу записаться расширенное сопровождение." href="#" target="_blank">Записаться</a>
-</div>
-</div>
-</div>
-</section>
-<!-- Консультации -->
-<section id="services">
-<div class="container">
-<h2>Консультация</h2>
-<p>Консультация — это формат работы, направленный на разбор вашей ситуации и составление понятного плана, который поможет сделать сон ребенка более качественным, продолжительным и восстановительным.</p>
-<div class="service-card">
-<h3>Экспресс-консультация «Разбор дневника сна»</h3>
-<p class="price">Стоимость: <span>2 500 ₽</span></p>
-<div class="badges">
-<span class="badge">Рассрочка от банка</span>
-<span class="badge">Без первоначального взноса</span>
-<span class="badge">Срок на выбор</span>
-</div>
-<p class="service-subtitle">Включает:</p>
-<ul>
-<li>видеозапись с разбором вашего дневника сна, выявлением режимных проблем и построением рекомендаций по режиму</li>
-<li>ответы на вопросы в чате, возникшие при просмотре разбора</li>
-</ul>
-<p class="service-subtitle">Кому подойдет:</p>
-<ul>
-<li>вы уже были в работе у меня или другого консультанта по сну и знаете основные принципы работы с режимом по индивидуальным нормам, ознакомлены со структурой организации бодрствования и гигиеной сна</li>
-<li>вы самостоятельно много изучали, многое знаете, и вам нужно понять именно режимное направление</li>
-<li>подойдет для решения режимных проблем: ЧНП, короткие дневные сны, чуткий сон, долгие укладывания, ранние подъемы и ночные гуляния</li>
-</ul>
-<div class="service-format">
-<p class="service-subtitle">Как проходит:</p>
-<p>Консультация проходит в чате: после просмотра разбора дневника сна и пояснений в виде голосовых сообщений обсуждаем возникшие вопросы.</p>
-</div>
-<div class="cta-consent-block">
-<label class="legal-consent">
-<input class="legal-consent-checkbox" type="checkbox"/>
-<span>
-            Я ознакомлен(а) с
-            <a href="/offer.html" target="_blank">публичной офертой</a>,
-            <a href="/privacy-policy.html" target="_blank">политикой обработки персональных данных</a>
-            и даю
-            <a href="/consent-personal-data.html" target="_blank">согласие на обработку персональных данных</a>.
-        </span>
-</label>
-<a aria-disabled="true" class="btn-telegram legal-gated-link is-disabled" data-href="https://t.me/diana_son_gv?text=Здравствуйте, хочу записаться на экспресс-консультацию «разбор дневника сна»." href="#" target="_blank">Записаться</a>
-</div>
-</div>
-<div class="service-card">
-<h3>Консультация «Комплексная работа с режимом»</h3>
-<p class="price">Стоимость: <span>4 000 ₽</span></p>
-<div class="badges">
-<span class="badge">Рассрочка от банка</span>
-<span class="badge">Без первоначального взноса</span>
-<span class="badge">Срок на выбор</span>
-</div>
-<p class="service-subtitle">Включает:</p>
-<ul>
-<li>предварительное анкетирование для комплексной оценки ситуации</li>
-<li>анализ дневника сна и его разбор в видеозаписи</li>
-<li>обсуждение организации времени бодрствования согласно возрасту, подбор техник расслабления, занятия на сенсорные системы при выявленном сенсорном голоде</li>
-<li>пошаговый план по работе с режимом для достижения устойчивых результатов</li>
-<li>рекомендации по дальнейшим возрастным корректировкам, чтобы сохранить качество сна</li>
-</ul>
-<p class="service-subtitle">Кому подойдет:</p>
-<ul>
-<li>вы столкнулись с режимными проблемами: ЧНП, короткие дневные сны, чуткий сон, долгие укладывания, ранние подъемы и ночные гуляния</li>
-<li>вы хотите узнать, как правильно организовать бодрствование и сон ребенка, а также подобрать расслабление для малыша</li>
-</ul>
-<div class="service-format">
-<p class="service-subtitle">Как проходит на выбор:</p>
-<ul>
-<li>в чате в письменном виде: документ с информацией, голосовые сообщения с пояснениями, видеозапись разбора дневника сна и общение в чате по вопросам после изучения</li>
-<li>в формате звонка 40 минут: видеозапись разбора дневника сна и дальнейший звонок для обсуждения плана действий и других вопросов, плюс дополнительные материалы, обсужденные на звонке</li>
-</ul>
-</div>
-<div class="cta-consent-block">
-<label class="legal-consent">
-<input class="legal-consent-checkbox" type="checkbox"/>
-<span>
-            Я ознакомлен(а) с
-            <a href="/offer.html" target="_blank">публичной офертой</a>,
-            <a href="/privacy-policy.html" target="_blank">политикой обработки персональных данных</a>
-            и даю
-            <a href="/consent-personal-data.html" target="_blank">согласие на обработку персональных данных</a>.
-        </span>
-</label>
-<a aria-disabled="true" class="btn-telegram legal-gated-link is-disabled" data-href="https://t.me/diana_son_gv?text=Здравствуйте, хочу записаться на консультацию «комплексная работа с режимом»." href="#" target="_blank">Записаться</a>
-</div>
-</div>
-<div class="service-card">
-<h3>Консультация «Комплексная работа с режимом + работа с ассоциациями»</h3>
-<p class="price">Стоимость: <span>6 000 ₽</span></p>
-<div class="badges">
-<span class="badge">Рассрочка от банка</span>
-<span class="badge">Без первоначального взноса</span>
-<span class="badge">Срок на выбор</span>
-</div>
-<p class="service-subtitle">Включает:</p>
-<ul>
-<li>предварительное анкетирование для комплексной оценки ситуации</li>
-<li>анализ дневника сна и его разбор в видеозаписи</li>
-<li>обсуждение организации времени бодрствования согласно возрасту, подбор техник расслабления, занятия на сенсорные системы при выявленном сенсорном голоде</li>
-<li>пошаговый план по работе с режимом для достижения устойчивых результатов</li>
-<li>рекомендации по дальнейшим возрастным корректировкам, чтобы сохранить качество сна</li>
-<li>методика для разделения ассоциации: ГВ, укачивания, бутылочка, пустышка</li>
-<li>методика для переселения в свою кроватку</li>
-<li>методика сокращения ночных кормлений</li>
-<li>план по завершению ГВ в актуальном возрасте</li>
-</ul>
-<p class="service-subtitle">Кому подойдет:</p>
-<ul>
-<li>вы столкнулись с режимными проблемами: ЧНП, короткие дневные сны, чуткий сон, долгие укладывания, ранние подъемы и ночные гуляния</li>
-<li>вы хотите узнать, как правильно организовать бодрствование и сон ребенка, а также подобрать расслабление для малыша</li>
-<li>вы хотите мягко разделить ассоциацию на сон, сформировать сон в своей кроватке, сократить ночные кормления или завершить грудное вскармливание</li>
-</ul>
-<div class="service-format">
-<p class="service-subtitle">Как проходит на выбор:</p>
-<ul>
-<li>в чате в письменном виде: документ с информацией, голосовые сообщения с пояснениями и видеозапись разбора дневника сна</li>
-<li>в формате звонка 80 минут: видеозапись разбора дневника сна и дальнейший звонок для обсуждения плана действий, методик и других вопросов, плюс дополнительные материалы, обсужденные на звонке</li>
-</ul>
-</div>
-<div class="cta-consent-block">
-<label class="legal-consent">
-<input class="legal-consent-checkbox" type="checkbox"/>
-<span>
-            Я ознакомлен(а) с
-            <a href="/offer.html" target="_blank">публичной офертой</a>,
-            <a href="/privacy-policy.html" target="_blank">политикой обработки персональных данных</a>
-            и даю
-            <a href="/consent-personal-data.html" target="_blank">согласие на обработку персональных данных</a>.
-        </span>
-</label>
-<a aria-disabled="true" class="btn-telegram legal-gated-link is-disabled" data-href="https://t.me/diana_son_gv?text=Здравствуйте, хочу записаться на консультацию «комплексная работа с режимом + работа с ассоциациями»." href="#" target="_blank">Записаться</a>
-</div>
-</div>
-</div>
-</section>
-<!-- Отзывы -->
-<section id="testimonials">
-<div class="container">
-<h2>Отзывы</h2>
-<div class="gallery">
-<div class="gallery-item">
-<img alt="Отзыв, Анастасия и Мия" class="myImg" height="100" loading="lazy" src="assets/reviews/review_1.webp" width="200"/>
-</div>
-<div class="gallery-item">
-<img alt="Отзыв, Анастасия и Артем" class="myImg" height="100" loading="lazy" src="assets/reviews/review_2.webp" width="200"/>
-</div>
-<div class="gallery-item">
-<img alt="Отзыв, Валентина и Дарья" class="myImg" height="100" loading="lazy" src="assets/reviews/review_3.webp" width="200"/>
-</div>
-<div class="gallery-item">
-<img alt="Отзыв" class="myImg" height="100" loading="lazy" src="assets/reviews/review_4.webp" width="200"/>
-</div>
-<div class="gallery-item">
-<img alt="Отзыв, Татьяна и Мира" class="myImg" height="100" loading="lazy" src="assets/reviews/review_5.webp" width="200"/>
-</div>
-<div class="gallery-item">
-<img alt="Отзыв" class="myImg" height="100" loading="lazy" src="assets/reviews/review_6.webp" width="200"/>
-</div>
-</div>
-</div>
-</section>
-<!-- Обратная связь -->
-<section id="feedback">
-<div class="container">
-<h2>Обратная связь</h2>
-<p>Свяжитесь со мной удобным для вас способом:</p><p class="work-time">Рабочее время для ответов: будние дни с 09:00 до 17:00 по московскому времени, МСК.</p>
-<div class="feedback-links">
-<a class="feedback-btn whatsapp" href="https://wa.me/79994652582" target="_blank">
-<img alt="WhatsApp" src="assets/icons8-whatsapp-48.png"/>
-                    Написать в WhatsApp
-                </a>
-<a class="feedback-btn telegram" href="https://t.me/diana_son_gv" target="_blank">
-<img alt="Telegram" src="assets/icons8-telegram-48.png"/>
-                    Написать в Telegram
-                </a>
-<a class="feedback-btn email" href="mailto:dianagulchenko@yandex.ru">
-<img alt="Email" src="assets/icons8-email-48.png"/>
-                    Написать на почту
-                </a>
-</div>
-<div class="max-contact-card">
-<div class="max-contact-info">
-<span class="max-contact-badge">МАКС</span>
-<h3>Можно связаться через МАКС</h3>
-<p>
-                        Если вам удобнее общаться в МАКС, просто отсканируйте QR-код
-                        и перейдите в профиль.
+            <figure class="hero-portrait">
+              <img
+                src="/assets/diana-photo.webp"
+                alt="Диана Березовская"
+                width="832"
+                height="1067"
+                fetchpriority="high"
+                loading="eager"
+                decoding="async"
+              />
+              <figcaption>Помощь со сном<br />и поддержка родителей</figcaption>
+            </figure>
+          </div>
+          <div class="hero-note">
+            <strong>Сначала — ваш запрос.</strong> Формат и условия работы
+            обсудим до начала консультации.
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Когда нужна поддержка</p>
+            <h2>Найдём понятный следующий шаг</h2>
+            <p>
+              Работаем с повседневными сложностями сна, учитывая режим ребёнка и
+              привычки вашей семьи.
+            </p>
+          </div>
+          <div class="help-grid">
+            <article class="help-card">
+              <span class="number">01</span>
+              <h3>Долгие укладывания</h3>
+              <p>
+                Разберём режим, бодрствование и привычные условия засыпания.
+              </p>
+            </article>
+            <article class="help-card">
+              <span class="number">02</span>
+              <h3>Пробуждения и короткие сны</h3>
+              <p>
+                Посмотрим на дневник сна и определим направление работы с
+                режимом.
+              </p>
+            </article>
+            <article class="help-card">
+              <span class="number">03</span>
+              <h3>Нужен план и поддержка</h3>
+              <p>
+                Выберем разовую консультацию или сопровождение с обратной
+                связью.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section services-section" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Разобраться в ситуации</p>
+            <h2>Консультации</h2>
+            <p>
+              Для конкретного запроса и понятного плана действий. Подробный
+              состав каждого формата — внутри карточки.
+            </p>
+          </div>
+          <div class="service-grid">
+            <article
+              class="service-card"
+              id="service-diary"
+              data-service-id="diary"
+            >
+              <p class="service-kind">Разовая консультация</p>
+              <h3>Разбор дневника сна</h3>
+              <p class="service-price">2 500 ₽</p>
+              <p class="service-summary">
+                Видеозапись с разбором дневника и рекомендации по режиму.
+                Подходит тем, кто уже знаком с основами детского сна.
+              </p>
+              <a
+                class="button"
+                href="/request.php?service=diary"
+                data-service-select="diary"
+                >Обсудить и записаться</a
+              >
+              <details>
+                <summary>Подробнее о формате</summary>
+                <div class="service-details">
+                  <p class="service-subtitle">Включает:</p>
+                  <ul>
+                    <li>
+                      видеозапись с разбором вашего дневника сна, выявлением
+                      режимных проблем и построением рекомендаций по режиму
+                    </li>
+                    <li>
+                      ответы на вопросы в чате, возникшие при просмотре разбора
+                    </li>
+                  </ul>
+                  <p class="service-subtitle">Кому подойдет:</p>
+                  <ul>
+                    <li>
+                      вы уже были в работе у меня или другого консультанта по
+                      сну и знаете основные принципы работы с режимом по
+                      индивидуальным нормам, ознакомлены со структурой
+                      организации бодрствования и гигиеной сна
+                    </li>
+                    <li>
+                      вы самостоятельно много изучали, многое знаете, и вам
+                      нужно понять именно режимное направление
+                    </li>
+                    <li>
+                      подойдет для решения режимных проблем: частые ночные
+                      пробуждения, короткие дневные сны, чуткий сон, долгие
+                      укладывания, ранние подъемы и ночные гуляния
+                    </li>
+                  </ul>
+                  <div class="service-format">
+                    <p class="service-subtitle">Как проходит:</p>
+                    <p>
+                      Консультация проходит в чате: после просмотра разбора
+                      дневника сна и пояснений в виде голосовых сообщений
+                      обсуждаем возникшие вопросы.
                     </p>
-</div>
-<div class="max-contact-qr">
-<img alt="QR-код для связи с Дианой Березовской в MAX" height="400" loading="lazy" src="assets/max-qr.jpg" width="320"/>
-</div>
-</div>
-</div>
-</section>
-<!-- Контакты -->
-<section id="contact">
-<div class="container">
-<h2>Контакты</h2>
-<div class="social-links">
-<a aria-label="Telegram" href="https://t.me/diana_son_gv" target="_blank">
-<img alt="Telegram" class="social-icon" src="assets/icons8-telegram-48.png"/>
-</a>
-<a aria-label="VK" href="https://vk.com/id350226409" target="_blank">
-<img alt="VK" class="social-icon" src="assets/icons8-vk-48.png"/>
-</a>
-<a aria-label="Instagram" href="https://instagram.com/your_instagram_profile" target="_blank">
-<img alt="Instagram" class="social-icon gray-instagram" src="assets/icons8-instagram-48.png"/>
-</a>
-<a aria-label="MAX QR-код" class="social-max" href="#feedback">
-<img alt="MAX" class="social-max-icon" src="assets/MAX.svg"/>
-</a>
-</div>
-<p class="disclaimer">* Деятельность компании Meta (Instagram) признана экстремистской и запрещена на территории РФ</p>
-</div>
-</section>
-<!-- Модальное окно для галерей -->
-<div class="modal" id="myModal">
-<span class="close">×</span>
-<span class="prev">❮</span>
-<span class="next">❯</span>
-<img alt="" class="modal-content" id="img01"/>
-<div class="caption" id="caption"></div>
-</div>
-<footer>
-<div class="container"><div class="footer-legal"><a href="/offer.html">Публичная оферта</a>
-<a href="/privacy-policy.html">Политика обработки персональных данных</a>
-<a href="/consent-personal-data.html">Согласие на обработку персональных данных</a>
-</div>
-<p>© 2026 Диана Березовская. Все права защищены.</p>
-</div>
-<div class="cookie-notice" id="cookie-notice">
-<p>Мы используем cookie и аналогичные технологии для работы сайта и улучшения сервиса. Нажимая «Принять», вы соглашаетесь с использованием cookie в соответствии с <a href="/privacy-policy.html">Политикой обработки персональных данных</a>.</p>
-<button class="btn" id="accept-cookies">Принять</button>
-</div>
-</footer>
-<script defer="" src="script.js"></script>
-</body>
+                  </div>
+                </div>
+              </details>
+            </article>
+            <article
+              class="service-card"
+              id="service-regime"
+              data-service-id="regime"
+            >
+              <p class="service-kind">Разовая консультация</p>
+              <h3>Комплексная работа с режимом</h3>
+              <p class="service-price">4 000 ₽</p>
+              <p class="service-summary">
+                Разберём вашу ситуацию и составим план работы с режимом. На
+                выбор — материалы в чате или звонок до 40 минут.
+              </p>
+              <a
+                class="button"
+                href="/request.php?service=regime"
+                data-service-select="regime"
+                >Обсудить и записаться</a
+              >
+              <details>
+                <summary>Подробнее о формате</summary>
+                <div class="service-details">
+                  <p class="service-subtitle">Включает:</p>
+                  <ul>
+                    <li>
+                      предварительное анкетирование для комплексной оценки
+                      ситуации
+                    </li>
+                    <li>анализ дневника сна и его разбор в видеозаписи</li>
+                    <li>
+                      обсуждение организации времени бодрствования согласно
+                      возрасту, подбор техник расслабления, занятия на сенсорные
+                      системы при выявленном сенсорном голоде
+                    </li>
+                    <li>
+                      пошаговый план по работе с режимом для достижения
+                      устойчивых результатов
+                    </li>
+                    <li>
+                      рекомендации по дальнейшим возрастным корректировкам,
+                      чтобы сохранить качество сна
+                    </li>
+                  </ul>
+                  <p class="service-subtitle">Кому подойдет:</p>
+                  <ul>
+                    <li>
+                      вы столкнулись с режимными проблемами: частые ночные
+                      пробуждения, короткие дневные сны, чуткий сон, долгие
+                      укладывания, ранние подъемы и ночные гуляния
+                    </li>
+                    <li>
+                      вы хотите узнать, как правильно организовать бодрствование
+                      и сон ребенка, а также подобрать расслабление для малыша
+                    </li>
+                  </ul>
+                  <div class="service-format">
+                    <p class="service-subtitle">Как проходит на выбор:</p>
+                    <ul>
+                      <li>
+                        в чате в письменном виде: документ с информацией,
+                        голосовые сообщения с пояснениями, видеозапись разбора
+                        дневника сна и общение в чате по вопросам после изучения
+                      </li>
+                      <li>
+                        в формате звонка 40 минут: видеозапись разбора дневника
+                        сна и дальнейший звонок для обсуждения плана действий и
+                        других вопросов, плюс дополнительные материалы,
+                        обсужденные на звонке
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </details>
+            </article>
+            <article
+              class="service-card"
+              id="service-associations"
+              data-service-id="associations"
+            >
+              <p class="service-kind">Разовая консультация</p>
+              <h3>Режим и работа с ассоциациями</h3>
+              <p class="service-price">6 000 ₽</p>
+              <p class="service-summary">
+                Работа с режимом и привычными условиями засыпания. На выбор —
+                материалы в чате или звонок до 80 минут.
+              </p>
+              <a
+                class="button"
+                href="/request.php?service=associations"
+                data-service-select="associations"
+                >Обсудить и записаться</a
+              >
+              <details>
+                <summary>Подробнее о формате</summary>
+                <div class="service-details">
+                  <p class="service-subtitle">Включает:</p>
+                  <ul>
+                    <li>
+                      предварительное анкетирование для комплексной оценки
+                      ситуации
+                    </li>
+                    <li>анализ дневника сна и его разбор в видеозаписи</li>
+                    <li>
+                      обсуждение организации времени бодрствования согласно
+                      возрасту, подбор техник расслабления, занятия на сенсорные
+                      системы при выявленном сенсорном голоде
+                    </li>
+                    <li>
+                      пошаговый план по работе с режимом для достижения
+                      устойчивых результатов
+                    </li>
+                    <li>
+                      рекомендации по дальнейшим возрастным корректировкам,
+                      чтобы сохранить качество сна
+                    </li>
+                    <li>
+                      методика для разделения ассоциации: грудное вскармливание,
+                      укачивания, бутылочка, пустышка
+                    </li>
+                    <li>методика для переселения в свою кроватку</li>
+                    <li>методика сокращения ночных кормлений</li>
+                    <li>
+                      план по завершению грудного вскармливания в актуальном
+                      возрасте
+                    </li>
+                  </ul>
+                  <p class="service-subtitle">Кому подойдет:</p>
+                  <ul>
+                    <li>
+                      вы столкнулись с режимными проблемами: частые ночные
+                      пробуждения, короткие дневные сны, чуткий сон, долгие
+                      укладывания, ранние подъемы и ночные гуляния
+                    </li>
+                    <li>
+                      вы хотите узнать, как правильно организовать бодрствование
+                      и сон ребенка, а также подобрать расслабление для малыша
+                    </li>
+                    <li>
+                      вы хотите мягко разделить ассоциацию на сон, сформировать
+                      сон в своей кроватке, сократить ночные кормления или
+                      завершить грудное вскармливание
+                    </li>
+                  </ul>
+                  <div class="service-format">
+                    <p class="service-subtitle">Как проходит на выбор:</p>
+                    <ul>
+                      <li>
+                        в чате в письменном виде: документ с информацией,
+                        голосовые сообщения с пояснениями и видеозапись разбора
+                        дневника сна
+                      </li>
+                      <li>
+                        в формате звонка 80 минут: видеозапись разбора дневника
+                        сна и дальнейший звонок для обсуждения плана действий,
+                        методик и других вопросов, плюс дополнительные
+                        материалы, обсужденные на звонке
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </details>
+            </article>
+          </div>
+          <div class="service-selection-note">
+            Не уверены в выборе?
+            <a href="/request.php?service=help" data-service-select="help"
+              >Помогу подобрать формат</a
+            >. Дату и способ проведения согласуем лично.
+          </div>
+        </div>
+      </section>
+      <section class="section support-section" id="support">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Пройти путь вместе</p>
+            <h2>Индивидуальное сопровождение</h2>
+            <p>
+              Когда хочется не только получить рекомендации, но и применять их с
+              поддержкой: обсуждать вопросы и корректировать план по ходу
+              работы.
+            </p>
+          </div>
+          <div class="service-grid">
+            <article
+              class="service-card"
+              id="service-support-3"
+              data-service-id="support-3"
+            >
+              <p class="service-kind">Индивидуальное сопровождение</p>
+              <h3>Сопровождение 3 недели</h3>
+              <p class="service-price">11 500 ₽</p>
+              <p class="service-summary">
+                Индивидуальная работа с режимом сна и бодрствованием. План,
+                поддержка и корректировки в течение трёх недель.
+              </p>
+              <a
+                class="button"
+                href="/request.php?service=support-3"
+                data-service-select="support-3"
+                >Обсудить и записаться</a
+              >
+              <details>
+                <summary>Подробнее о формате</summary>
+                <div class="service-details">
+                  <p>
+                    Мы вместе проходим через работу с режимом, совместно решаем
+                    режимные проблемы, организовываем малышу бодрствование,
+                    подбираем методы расслабления и методики по работе с
+                    ассоциациями, в конце сопровождения я даю подробную
+                    информацию на будущее.
+                  </p>
+                </div>
+              </details>
+            </article>
+            <article
+              class="service-card"
+              id="service-support-5"
+              data-service-id="support-5"
+            >
+              <p class="service-kind">Индивидуальное сопровождение</p>
+              <h3>Сопровождение 5 недель</h3>
+              <p class="service-price">18 000 ₽</p>
+              <p class="service-summary">
+                Работа с режимом и ассоциациями на засыпание: кормлением,
+                укачиванием, пустышкой. Поддержка в течение пяти недель.
+              </p>
+              <a
+                class="button"
+                href="/request.php?service=support-5"
+                data-service-select="support-5"
+                >Обсудить и записаться</a
+              >
+              <details>
+                <summary>Подробнее о формате</summary>
+                <div class="service-details">
+                  <p>
+                    Все то же, что включает сопровождение 3 недели + совместная
+                    работа над ассоциацией (грудь, бутылочка, пустышка,
+                    укачивания), переселение в кроватку, работа с ночными
+                    пробуждениями, по запросу завершение грудного или
+                    искусственного вскармливания или методика на будущее.
+                  </p>
+                </div>
+              </details>
+            </article>
+            <article
+              class="service-card service-card--extended"
+              id="service-extended"
+              data-service-id="extended"
+            >
+              <p class="service-kind">Индивидуальное сопровождение</p>
+              <h3>Расширенное сопровождение</h3>
+              <p class="service-price">50 000 ₽</p>
+              <p class="service-summary">
+                Расширенный формат индивидуальной работы. Запрос, ожидаемый
+                результат и условия дальнейшей поддержки обсудим до начала.
+              </p>
+              <a
+                class="button"
+                href="/request.php?service=extended"
+                data-service-select="extended"
+                >Обсудить и записаться</a
+              >
+              <details>
+                <summary>Подробнее о формате</summary>
+                <div class="service-details">
+                  <ul>
+                    <li>
+                      Не имеет ограничения по времени, работа ведется до
+                      получения результата
+                    </li>
+                    <li>
+                      После сопровождения бесплатные консультации по мере роста
+                      ребенка для корректировки режима и помощи в поддержании
+                      качественного сна
+                    </li>
+                  </ul>
+                </div>
+              </details>
+            </article>
+          </div>
+          <p class="service-selection-note">
+            Отвечаю в рабочие дни с 09:00 до 17:00 по московскому времени.
+            Состав, объём и условия сопровождения обсуждаем перед началом.
+          </p>
+        </div>
+      </section>
+      <section class="section" id="process">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Как всё устроено</p>
+            <h2>От первого сообщения до плана</h2>
+          </div>
+          <div class="process-grid">
+            <article class="process-step">
+              <h3>Обсуждаем запрос</h3>
+              <p>
+                Вы оставляете контакт и выбираете формат. Уточняем, какая помощь
+                нужна и как удобнее общаться.
+              </p>
+            </article>
+            <article class="process-step">
+              <h3>Готовим материалы</h3>
+              <p>
+                По выбранному формату заполняете дневник сна и анкету. Я
+                разбираю ситуацию и готовлю рекомендации.
+              </p>
+            </article>
+            <article class="process-step">
+              <h3>Работаем по плану</h3>
+              <p>
+                Обсуждаем рекомендации в чате или на звонке. В сопровождении
+                отслеживаем изменения и корректируем шаги.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section about-section" id="about">
+        <div class="container">
+          <div class="about-top">
+            <div>
+              <p class="eyebrow">Познакомимся</p>
+              <h2>Я Диана Березовская</h2>
+            </div>
+            <div class="about-copy">
+              <p>
+                Консультант по детскому сну, грудному вскармливанию и психолог.
+                Помогаю родителям и малышам находить более спокойный ритм сна и
+                бодрствования.
+              </p>
+              <p>
+                В работе опираюсь на вашу ситуацию: режим, привычки и
+                возможности семьи. Составляю понятные рекомендации и помогаю
+                разобраться с возникающими вопросами.
+              </p>
+            </div>
+          </div>
+          <h3>Сертификаты</h3>
+          <div class="gallery">
+            <a
+              class="gallery-trigger"
+              href="/assets/sert/sert_one.webp"
+              data-gallery="certificates"
+              aria-haspopup="dialog"
+              ><img
+                src="/assets/sert/sert_one.webp"
+                alt="Сертификат, Консультант по детскому сну"
+                width="1170"
+                height="806"
+                loading="lazy"
+                decoding="async"
+            /></a>
+            <a
+              class="gallery-trigger"
+              href="/assets/sert/sert_two.webp"
+              data-gallery="certificates"
+              aria-haspopup="dialog"
+              ><img
+                src="/assets/sert/sert_two.webp"
+                alt="Сертификат, Детская агрессия от 1 года и до 5 лет"
+                width="1170"
+                height="805"
+                loading="lazy"
+                decoding="async"
+            /></a>
+            <a
+              class="gallery-trigger"
+              href="/assets/sert/sert_3.webp"
+              data-gallery="certificates"
+              aria-haspopup="dialog"
+              ><img
+                src="/assets/sert/sert_3.webp"
+                alt="Сертификат, Основы общей психологии"
+                width="763"
+                height="1080"
+                loading="lazy"
+                decoding="async"
+            /></a>
+            <a
+              class="gallery-trigger"
+              href="/assets/sert/sert_4.webp"
+              data-gallery="certificates"
+              aria-haspopup="dialog"
+              ><img
+                src="/assets/sert/sert_4.webp"
+                alt="Сертификат, Психология личности"
+                width="763"
+                height="1080"
+                loading="lazy"
+                decoding="async"
+            /></a>
+            <a
+              class="gallery-trigger"
+              href="/assets/sert/sert_5.webp"
+              data-gallery="certificates"
+              aria-haspopup="dialog"
+              ><img
+                src="/assets/sert/sert_5.webp"
+                alt="Сертификат, Основы семейной психологии"
+                width="763"
+                height="1080"
+                loading="lazy"
+                decoding="async"
+            /></a>
+          </div>
+          <p class="gallery-caption-hint">
+            Нажмите на изображение, чтобы прочитать документ.
+          </p>
+        </div>
+      </section>
+      <section class="section reviews-section" id="testimonials">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Опыт родителей</p>
+            <h2>Отзывы о совместной работе</h2>
+            <p>Нажмите на отзыв, чтобы открыть его полностью.</p>
+          </div>
+          <div class="gallery review-gallery">
+            <a
+              class="gallery-trigger"
+              href="/assets/reviews/review_1.webp"
+              data-gallery="reviews"
+              aria-haspopup="dialog"
+              ><img
+                src="/assets/reviews/review_1.webp"
+                alt="Отзыв, Анастасия и Мия"
+                width="693"
+                height="1080"
+                loading="lazy"
+                decoding="async"
+            /></a>
+            <a
+              class="gallery-trigger"
+              href="/assets/reviews/review_2.webp"
+              data-gallery="reviews"
+              aria-haspopup="dialog"
+              ><img
+                src="/assets/reviews/review_2.webp"
+                alt="Отзыв, Анастасия и Артем"
+                width="703"
+                height="1080"
+                loading="lazy"
+                decoding="async"
+            /></a>
+            <a
+              class="gallery-trigger"
+              href="/assets/reviews/review_3.webp"
+              data-gallery="reviews"
+              aria-haspopup="dialog"
+              ><img
+                src="/assets/reviews/review_3.webp"
+                alt="Отзыв, Валентина и Дарья"
+                width="885"
+                height="548"
+                loading="lazy"
+                decoding="async"
+            /></a>
+            <a
+              class="gallery-trigger"
+              href="/assets/reviews/review_4.webp"
+              data-gallery="reviews"
+              aria-haspopup="dialog"
+              ><img
+                src="/assets/reviews/review_4.webp"
+                alt="Отзыв"
+                width="1030"
+                height="704"
+                loading="lazy"
+                decoding="async"
+            /></a>
+            <a
+              class="gallery-trigger"
+              href="/assets/reviews/review_5.webp"
+              data-gallery="reviews"
+              aria-haspopup="dialog"
+              ><img
+                src="/assets/reviews/review_5.webp"
+                alt="Отзыв, Татьяна и Мира"
+                width="693"
+                height="1080"
+                loading="lazy"
+                decoding="async"
+            /></a>
+            <a
+              class="gallery-trigger"
+              href="/assets/reviews/review_6.webp"
+              data-gallery="reviews"
+              aria-haspopup="dialog"
+              ><img
+                src="/assets/reviews/review_6.webp"
+                alt="Отзыв"
+                width="778"
+                height="1080"
+                loading="lazy"
+                decoding="async"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Перед началом</p>
+            <h2>Частые вопросы</h2>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary>Не знаю, какой формат выбрать. С чего начать?</summary>
+              <p>
+                Оставьте заявку с вариантом «Помогите выбрать формат» или
+                напишите мне. Сначала обсудим ваш запрос и подходящий объём
+                помощи, затем согласуем дальнейшие шаги.
+              </p>
+            </details>
+            <details>
+              <summary>Как проходит консультация?</summary>
+              <p>
+                В зависимости от формата вы получаете разбор дневника сна,
+                письменные материалы и голосовые пояснения. Для комплексных
+                консультаций можно выбрать звонок: до 40 или до 80 минут. Состав
+                каждого варианта указан в карточке.
+              </p>
+            </details>
+            <details>
+              <summary>Что нужно подготовить?</summary>
+              <p>
+                Для разбора понадобится дневник сна. В комплексных форматах
+                также используется анкета. Что именно заполнить и к какому
+                сроку, обсудим перед началом работы. В первой заявке медицинские
+                сведения и документы не нужны.
+              </p>
+            </details>
+            <details>
+              <summary>Когда вы отвечаете на сообщения?</summary>
+              <p>
+                В рабочие дни с 09:00 до 17:00 по московскому времени. Если вы
+                написали вечером или в выходной, я вернусь к обращению в рабочее
+                время.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Можно ли перенести консультацию или отказаться от услуги?
+              </summary>
+              <p>
+                Напишите мне заранее, чтобы обсудить ситуацию. Порядок переноса,
+                отказа и возврата средств описан в публичной оферте. Условия
+                выбранного формата согласуем до начала работы.
+              </p>
+            </details>
+            <details>
+              <summary>Это медицинская услуга?</summary>
+              <p>
+                Нет. Моя работа носит информационно-консультационный характер: я
+                не ставлю диагнозы и не назначаю лечение. Медицинские вопросы и
+                особенности здоровья ребёнка необходимо обсуждать с врачом.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+      <section class="section contact-section" id="feedback">
+        <div class="container contact-grid">
+          <div>
+            <div class="section-heading">
+              <p class="eyebrow">Будем на связи</p>
+              <h2>Обсудим вашу ситуацию?</h2>
+              <p>
+                Оставьте заявку или напишите удобным способом. Если пока не
+                знаете, какой формат нужен, помогу сориентироваться.
+              </p>
+            </div>
+            <a
+              class="button button--light"
+              href="/request.php?service=help"
+              data-service-select="help"
+              >Оставить заявку</a
+            >
+            <p class="work-time">Рабочие дни · 09:00–17:00 по Москве</p>
+            <div class="contact-links">
+              <a
+                class="contact-link"
+                href="https://t.me/diana_son_gv"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-contact-channel="telegram"
+                ><img
+                  src="/assets/icons8-telegram-48.png"
+                  width="48"
+                  height="48"
+                  alt=""
+                />Telegram</a
+              ><a
+                class="contact-link"
+                href="https://wa.me/79994652582"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-contact-channel="whatsapp"
+                ><img
+                  src="/assets/icons8-whatsapp-48.png"
+                  width="48"
+                  height="48"
+                  alt=""
+                />WhatsApp</a
+              ><a
+                class="contact-link"
+                href="https://vk.com/id350226409"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-contact-channel="vk"
+                ><img
+                  src="/assets/icons8-vk-48.png"
+                  width="48"
+                  height="48"
+                  alt=""
+                />ВКонтакте</a
+              ><a
+                class="contact-link contact-link--email"
+                href="mailto:dianagulchenko@yandex.ru"
+                data-contact-channel="email"
+                >dianagulchenko@yandex.ru</a
+              >
+            </div>
+          </div>
+          <aside class="max-card">
+            <div>
+              <h3>Можно и в MAX</h3>
+              <p>
+                Отсканируйте QR-код с другого устройства или откройте
+                изображение полностью.
+              </p>
+              <a
+                href="/assets/max-qr.jpg"
+                class="gallery-trigger-link"
+                data-gallery-link="max"
+                >Открыть QR-код</a
+              >
+            </div>
+            <a
+              class="gallery-trigger"
+              href="/assets/max-qr.jpg"
+              data-gallery="max"
+              aria-haspopup="dialog"
+              ><img
+                src="/assets/max-qr.jpg"
+                alt="QR-код профиля Дианы Березовской в MAX"
+                width="1010"
+                height="1280"
+                loading="lazy"
+            /></a>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer" id="contact">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <strong>Диана Березовская</strong>
+            <p>
+              Информационно-консультационная помощь по детскому сну.<br />Услуги
+              не заменяют медицинскую диагностику и консультацию врача.
+            </p>
+          </div>
+          <div>
+            <p>
+              Березовская Диана Викторовна · плательщик НПД<br />ИНН
+              543801779954<br />© 2026 Диана Березовская
+            </p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="/offer.html">Публичная оферта</a
+          ><a href="/privacy-policy.html">Политика обработки данных</a
+          ><a href="/consent-request.html">Согласие на обработку заявки</a
+          ><button class="link-button" type="button" data-cookie-settings>
+            Настройки cookie
+          </button>
+        </div>
+      </div>
+    </footer>
+    <aside
+      class="cookie-notice"
+      id="cookie-notice"
+      aria-label="Использование cookie"
+      hidden
+    >
+      <p>
+        Технические cookie нужны для работы формы. Разрешите аналитику, чтобы
+        помочь улучшить сайт?
+        <a href="/privacy-policy.html#website-data">Подробнее</a>
+      </p>
+      <div class="cookie-actions">
+        <button
+          class="button button--outline"
+          type="button"
+          data-analytics-consent="no"
+        >
+          Только необходимые</button
+        ><button class="button" type="button" data-analytics-consent="yes">
+          Разрешить аналитику
+        </button>
+      </div>
+    </aside>
+    <dialog
+      class="cookie-dialog"
+      id="cookie-settings"
+      aria-labelledby="cookie-title"
+    >
+      <h2 id="cookie-title">Настройки cookie</h2>
+      <p>
+        Технические cookie обеспечивают безопасную отправку заявки.
+        Дополнительная аналитика помогает понять, какие страницы и форматы услуг
+        интересны посетителям. Она включается только с вашего разрешения.
+      </p>
+      <p>
+        Выбор можно изменить здесь в любое время.
+        <a href="/privacy-policy.html#website-data">Об обработке данных</a>.
+      </p>
+      <div class="cookie-actions">
+        <button
+          class="button button--outline"
+          type="button"
+          data-analytics-consent="no"
+        >
+          Только необходимые</button
+        ><button class="button" type="button" data-analytics-consent="yes">
+          Разрешить аналитику
+        </button>
+      </div>
+      <p>
+        <button class="link-button" type="button" data-dialog-close>
+          Закрыть без изменений
+        </button>
+      </p>
+    </dialog>
+    <dialog
+      class="gallery-dialog"
+      id="gallery-dialog"
+      aria-labelledby="gallery-caption"
+    >
+      <div class="dialog-toolbar">
+        <span class="dialog-counter" aria-live="polite"></span
+        ><button
+          class="icon-button"
+          type="button"
+          data-dialog-close
+          aria-label="Закрыть изображение"
+        >
+          ×
+        </button>
+      </div>
+      <img class="dialog-image" alt="" />
+      <div class="dialog-bottom">
+        <button
+          class="icon-button"
+          type="button"
+          data-gallery-prev
+          aria-label="Предыдущее изображение"
+        >
+          ←
+        </button>
+        <p id="gallery-caption" aria-live="polite"></p>
+        <button
+          class="icon-button"
+          type="button"
+          data-gallery-next
+          aria-label="Следующее изображение"
+        >
+          →
+        </button>
+      </div>
+    </dialog>
+  </body>
 </html>

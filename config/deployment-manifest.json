@@ -1,0 +1,208 @@
+{
+  "release": "2026-10-23",
+  "files": [
+    {
+      "path": ".htaccess",
+      "sha256": "7724d3428e1cbf6dcb90df7e17103e86d4e801a10984efafd5c728b1f9bfd7af"
+    },
+    {
+      "path": "404.html",
+      "sha256": "f28c6d8b5fdc72c7bcdef3c0a8b5a9f07bf579c663f912b0e070634bdc1253b8"
+    },
+    {
+      "path": "api/leads.php",
+      "sha256": "d4b38d2a9c791a5ecc91ea63b9f12992d87ebe1d9ae1d854690c80d69fa2844d"
+    },
+    {
+      "path": "assets/MAX.svg",
+      "sha256": "7d559e00cba997648221d077e7cb691584638c38f8982c56710d6ac2c13c7cd1"
+    },
+    {
+      "path": "assets/day-and-night.png",
+      "sha256": "2e1d041196a16b37e3db2fb8df26d56d43aef57f187aada705e38ae644eadfd9"
+    },
+    {
+      "path": "assets/diana-photo.webp",
+      "sha256": "95ce8385e8b2e2e3e4ca41af225dddb82caf14c7c85c3232d0123a4e01c955c3"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha256": "861d64229728cd65a98d119612c12769582574d1a092f0b63c8b0fd474e7065f"
+    },
+    {
+      "path": "assets/fonts/README.txt",
+      "sha256": "694c21f439e40418dd1366c84fadda4f762ed3010c2fb0cb9d02a69d68799d1f"
+    },
+    {
+      "path": "assets/fonts/montserrat-cyrillic.woff2",
+      "sha256": "a187b077090fe8ae3fd2d7496aabbeae604819c718a282e0afc92df72b450766"
+    },
+    {
+      "path": "assets/fonts/montserrat-latin.woff2",
+      "sha256": "06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879"
+    },
+    {
+      "path": "assets/icons8-email-48.png",
+      "sha256": "085973f720b405ab7eef7f952760415a3412347f751edb716093ff18e599aebb"
+    },
+    {
+      "path": "assets/icons8-instagram-48.png",
+      "sha256": "02d530763915cac5acd0bc8e772db4b08776cc6d5f9cc820d65a2eecce62a4b8"
+    },
+    {
+      "path": "assets/icons8-telegram-48.png",
+      "sha256": "bdd583ea6a23c1533527326f32ec1c13c12adf850eff7739d3afe7115c2b980c"
+    },
+    {
+      "path": "assets/icons8-vk-48.png",
+      "sha256": "3246c5b65b89f3f76f47a43527775c76c1c6e0cc03afc6a31fc01652131bdfd5"
+    },
+    {
+      "path": "assets/icons8-whatsapp-48.png",
+      "sha256": "013dd74f811c91fcc9129e021a41c58f5e8c7daa3a2c41043f8490c601f43c4d"
+    },
+    {
+      "path": "assets/logo.webp",
+      "sha256": "d700ba7be41e73104f112aea10fe1afc77bbed63ca50042ef1e02c60162b8705"
+    },
+    {
+      "path": "assets/logo_moon_title.png",
+      "sha256": "899921fc20a0dd5cdc1bf16ab259b86b6a63bcf43f5bb1dcf02b921ffb3c1516"
+    },
+    {
+      "path": "assets/logo_title.png",
+      "sha256": "4eaea1d8b2060ed85dea9804f5d55646093e76746c635af6cf69331800af2008"
+    },
+    {
+      "path": "assets/max-qr.jpg",
+      "sha256": "cff44a75fb206f08ab933b95d3742cb38934e6b8b714dac93b184aa732a06170"
+    },
+    {
+      "path": "assets/reviews/review_1.webp",
+      "sha256": "32a03930ec76b9f0e067afd9a05801a9e40fbacf20c03f07dff0610871e5b157"
+    },
+    {
+      "path": "assets/reviews/review_2.webp",
+      "sha256": "1f790e5444bffe294dd6c18ad6cdad63f7c566b77c70fb25da493cb5ba54fe03"
+    },
+    {
+      "path": "assets/reviews/review_3.webp",
+      "sha256": "bf1d960b5ab8e6e9d36d2ed237b8a58dfc002626d68fa41c0fd4e1e283b3492c"
+    },
+    {
+      "path": "assets/reviews/review_4.webp",
+      "sha256": "a784c73244b06b1378d2accbf8cce9206aca28cf653c7bb1a28ce3387f9cbde3"
+    },
+    {
+      "path": "assets/reviews/review_5.webp",
+      "sha256": "43c6e0fcba7d78ab1f4071c5a5c10279b31d79b9016b399f4982d445c180c41a"
+    },
+    {
+      "path": "assets/reviews/review_6.webp",
+      "sha256": "ff1e7d44ffa2a59534e319c866f5ce6ac3d86f348f8ee5607b13ac1aee0dd02d"
+    },
+    {
+      "path": "assets/sert/sert_3.webp",
+      "sha256": "4b6b829e69e6585ca02655762d5641f02bc71f308633415ee995d0ca8cdf027c"
+    },
+    {
+      "path": "assets/sert/sert_4.webp",
+      "sha256": "c303e83bea9915aacf9bfa0af63f6041381be018e4f8955defe2062924554815"
+    },
+    {
+      "path": "assets/sert/sert_5.webp",
+      "sha256": "fabbc96c4f93cf2dc81d72696074958c9d15e6cc418d06e54dd2fb1b855cbec7"
+    },
+    {
+      "path": "assets/sert/sert_one.webp",
+      "sha256": "1a61e2881b5b48a821696bde5cb5efbfcd8418d36d74fcf03ab6dadd2307cc4b"
+    },
+    {
+      "path": "assets/sert/sert_two.webp",
+      "sha256": "ccb19a9f123325be30c6f5fbd8464d807aa26f3f85f71a64c982882dc30fefb6"
+    },
+    {
+      "path": "config/assets.php",
+      "sha256": "d51b4794340c2a8bd8ebd65f11bc41fa2c0c5291f05c3863a1cf88cddfff4adb"
+    },
+    {
+      "path": "config/security.php",
+      "sha256": "adc473b9a2ff66a58ce4c7969b36c21990bdc251f8f044f0314b462902337c8e"
+    },
+    {
+      "path": "config/services.php",
+      "sha256": "2b5134b7961675a82d17a5dd80b792b3df9868062246828f64c4676ad3fe6269"
+    },
+    {
+      "path": "consent-personal-data.html",
+      "sha256": "99448693d10789296a44a51cdc927d03f73b69e9c422fb4f8778925cb3333ca3"
+    },
+    {
+      "path": "consent-request.html",
+      "sha256": "65c8a2bbb1a72ef52ca59c2a5472e04aeb51045c39f76f6bd9f96adec1775d32"
+    },
+    {
+      "path": "includes/bootstrap.php",
+      "sha256": "c7f9c2f015a7c858f36fe9431df9f09cdd078d6bb1eb29d78add66aa9f361cc1"
+    },
+    {
+      "path": "includes/layout.php",
+      "sha256": "80d6ea82d04e72cba1246d28a46e8d5b0e3e94e6ef59390e44fc433beaeacf87"
+    },
+    {
+      "path": "includes/templates/footer.html",
+      "sha256": "25c617927f26c94a3fb2ba807140dbb77d5545a8ce76e16cea120b99836bd990"
+    },
+    {
+      "path": "includes/templates/header.html",
+      "sha256": "be288652c29533945bb4e5e0e6eaae58c1461e5eefb39bd94c76035d3648bf11"
+    },
+    {
+      "path": "index.html",
+      "sha256": "43c8bc1305798b3c439d0ce81f096159061b7fedc0575b8f862622b5520a47f0"
+    },
+    {
+      "path": "offer.html",
+      "sha256": "b2a6e8061106906a9ace71d65a327c897cfbe45b8ecb91d94a0f7c3711910658"
+    },
+    {
+      "path": "privacy-policy.html",
+      "sha256": "823f0a68b957bc1ffe72e2982ae169a70bc9f39d87b58ec47e6ca8ad303da80f"
+    },
+    {
+      "path": "request.php",
+      "sha256": "bbaf264fc286d20567e66bb3a34e9c6cf957491da1429f730abb27c9051c6355"
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "702dfc9aea7ec5826532fe567c27b02f77b30b4f6543082d1d220cbf9b3be1ce"
+    },
+    {
+      "path": "script.js",
+      "sha256": "7de4afc11739f5424e1192e8d2a82a5470ebca776e5fad1d0c2986291004a0a6"
+    },
+    {
+      "path": "send-email.php",
+      "sha256": "93f433e53c842c9ab38ee7dbdf0763fed010718b33dcc661df83eb13b9a3e207"
+    },
+    {
+      "path": "site-config.js",
+      "sha256": "67a91e7bec6d67898dfddceb5926bba02de01f3f17f1e00e3a3c492a68a145e3"
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "075e78a9ae57660e592f9deb15ab6d35d47c1cf5b4e5158c5f01e61ba6db2e75"
+    },
+    {
+      "path": "style.css",
+      "sha256": "bc2767fc8d0c3524c6a923a8b86031aee3864fd919a748b72de881123ef50fb4"
+    },
+    {
+      "path": "tools/maintenance.php",
+      "sha256": "7918eba8044f3036d2ea5d347f608e1fcc856526699cfdcc2ef394e5f6776668"
+    }
+  ],
+  "excluded": "Git metadata, audits, backups, tests, docs, private configuration, DOCX and legacy snippets",
+  "requires_private_configuration": true,
+  "requires_hosting_validation": true
+}

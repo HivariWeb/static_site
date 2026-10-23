@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /api/
+Disallow: /includes/
+Disallow: /config/
+Disallow: /tools/
+Disallow: /tests/
+Disallow: /audit-
+
+Sitemap: https://www.dianaberezovskaya.online/sitemap.xml

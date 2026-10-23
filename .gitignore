@@ -13,6 +13,15 @@
 *.key
 .netrc
 _netrc
+/config/hosting.php
+/config/local.php
+/config/secrets.php
+/config.php
+/storage/
+/private/
+/diana-site-private/
+__pycache__/
+*.py[cod]
 
 # Настройки редактора: сохраняем только общие параметры проекта
 .vscode/*
